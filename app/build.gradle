@@ -1,0 +1,16 @@
+plugins {
+    id 'com.android.application'
+}
+android {
+    namespace 'com.liel.kernelui'
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.liel.kernelui"
+        minSdk 26
+        targetSdk 34
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
